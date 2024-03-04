@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028326, g: 0.22571333, b: 0.30692202, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -221,15 +221,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 179434934}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.5451068, y: -0, z: -0, w: 0.8383666}
-  m_LocalPosition: {x: 11.202, y: -1.9557443, z: -0.45588443}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.202, y: -2.041, z: -0.593}
   m_LocalScale: {x: 1.3014671, y: 0.5299949, z: 0.80205}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1393088717}
   - {fileID: 1991593916}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: -66.064, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &315204768
 GameObject:
   m_ObjectHideFlags: 0
@@ -6694,6 +6694,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Push Button (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4922582553321831162, guid: 76f3439a0ae796e4b81bee3f91f888ee,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7227,7 +7232,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1451938727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8451,7 +8456,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000012006197310, guid: 465c505844950da499dcf096a6da4409, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4000011695518034, guid: 465c505844950da499dcf096a6da4409, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9185,13 +9190,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1991593915}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.70709777, y: 0.003572829, z: 0.003572829, w: 0.70709777}
+  m_LocalRotation: {x: -0.9263278, y: 0.0019033152, z: 0.0046805562, w: 0.3766847}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 179434938}
-  m_LocalEulerAnglesHint: {x: -90, y: 18.659, z: -18.08}
+  m_LocalEulerAnglesHint: {x: -135.742, y: 0.57899475, z: 0}
 --- !u!199 &1991593917
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -9283,7 +9288,7 @@ ParticleSystem:
   emitterVelocityMode: 0
   looping: 1
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
@@ -14301,6 +14306,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: XR Interaction Setup
+      objectReference: {fileID: 0}
+    - target: {fileID: 7696548424635294051, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 19.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 7696548424635294051, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.86
       objectReference: {fileID: 0}
     - target: {fileID: 9032954039820430273, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}

@@ -6,6 +6,7 @@ public class finalDoor : MonoBehaviour
 {
     public GameObject rustkey; // Assign in inspector
     public GameObject door3;
+    public GameObject capsule;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +29,8 @@ public class finalDoor : MonoBehaviour
     void OpenDoor()
     {
         door3.SetActive(false); // Disable the door, effectively "opening" it
+        capsule.SetActive(false);
+        rustkey.SetActive(false);
         Debug.Log("Door Opened");
     }
 }
